@@ -10,7 +10,19 @@
   <div id="appRoot"></div>
   <script type="text/javascript" src="/dist/client.js"></script>
 
-<script type="text/javascript"> var infolinks_pid = 2755648; var infolinks_wsid = 0; </script> <script type="text/javascript" src="//resources.infolinks.com/js/infolinks_main.js"></script>
+  <!-- infolinks -->
+  <script type="text/javascript"> var infolinks_pid = 2755648; var infolinks_wsid = 0; </script>
+  <script type="text/javascript" src="//resources.infolinks.com/js/infolinks_main.js"></script>
 
+  <!-- chitika -->
+  <script type="text/javascript">
+    (function() {
+      if (window.CHITIKA === undefined) { window.CHITIKA = { 'units' : [] }; };
+      var unit = {"calltype":"async[2]","publisher":"crsradio","width":728,"height":90,"sid":"Chitika Default"};
+      var placement_id = window.CHITIKA.units.length;
+      window.CHITIKA.units.push(unit);
+    }());
+    </script>
+    <script type="text/javascript" src="//cdn.chitika.net/getads.js" async></script>
 </body>
 </html>
